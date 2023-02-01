@@ -1,0 +1,450 @@
+/*general settings*/
+.font-22{
+    font-size: 22px;
+}
+.left-margin{
+    margin-left: 175px;
+}
+.right-margin{
+    margin-right: 55px;
+}
+.blue-text{
+    color: rgb(26,13,171);
+    margin-left: 2px;
+}
+.ash-text{
+    color: rgb(151, 150, 150);
+}
+.up-bottom-margin{
+    margin: 10px 0px 5px 0px;
+    display: block;
+}
+
+/*search box section*/
+.top-section{
+    display: flex;
+    margin: 30px 30px 0px 20px;
+    align-items: center;
+}
+.logo{
+    width: 95px;
+    height: 33px;
+}
+/*icons*/
+.x-icon{
+    align-items: center;
+    width: 15px;
+    height: 15px;
+}
+.google-voice{
+    width: 15px;
+    height: 20px;
+    margin-left: 15px;
+}
+.setting-icon{
+    width: 20px;
+    height: 20px;
+}
+.menu-icon{
+    width: 30px;
+    height: 30px;
+}
+.account-info{
+    padding: 9px 12px;
+    border-radius: 50%;
+    border: none;
+    font-size: 15px;
+    color: white;
+    background-color: rgb(0,137,123);
+}
+.icons{
+    width: 20px;
+    height: 20px;
+}
+.search-box .input-search input{
+    border: none;
+}
+.input-search{
+    flex-basis: 85%;
+    display: flex;
+    justify-content: space-between;
+    border-right: 1px solid rgb(218,220,224);
+    padding: 5px 15px 5px 0px;
+    align-items: center;
+}
+.search-media{
+    flex-basis: 23%;
+    display: flex;
+    justify-content: space-between;
+    padding-right: 10px;
+    align-items: center;
+}
+.search-box{
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid black;
+    padding: 10px;
+    border-radius: 50px;
+    width: 645px;
+    margin: 0px 300px 0px 40px;
+}
+.logo-div{
+
+}
+.accounts{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 150px;
+}
+
+/*menu-icon bar*/
+.menu-bar{
+    width: 630px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+}
+.menu-bar-icon{
+    width: 18px;
+    height: 17px;
+}
+.all-menu{
+    margin-right: 25px;
+    display: flex;
+}
+.menu-bar .all-menu span{
+    margin-left: 4px;
+    font-size: 16px;
+}
+.tools{
+    margin-left: 170px;
+    font-size: 16px;
+}
+body{
+    margin: 0px;
+}
+
+/*section-1*/
+#section-1{
+    border-bottom: 1px solid black;
+}
+.section{
+    display: flex;
+    align-items: center;
+}
+.display-picture img{
+    width: 50px;
+    height: 70px;
+    border-radius: 5px;
+    margin-right: 15px;
+}
+.major-ID p{
+    margin: 0px;
+    font-size: 30px;
+}
+.major-ID div{
+    display: flex;
+    align-items: center;
+}
+.profile{
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+}
+.category-buttons button{
+    padding: 15px 20px;
+    margin-right: 5px;
+    border: none;
+    border-radius: 50px;
+}
+
+/*section- 2*/
+.photo-gallery-1{
+    display: flex;
+    border-radius: 20px;
+    margin-top: 40px;
+}
+.photo-gallery-1 .format-1{
+    width: 120px;
+    height: 140px;
+    margin-right: 2px;
+}
+.photo-gallery-1 .format-2{
+    width: 200px;
+    height: 140px;
+    margin-right: 2px;
+}
+.photo-gallery-1 .container{
+    position: relative;
+    
+}
+.photo-gallery-1 .container .image{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+}
+.photo-gallery-1 .container .stack-top{
+    z-index: 9;
+}
+.stack-top a{
+    background-color: black;
+    border: none;
+    border-radius: 0px 0px 15px 0px;
+    opacity: 0.7;
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 10px;
+    align-items: center;
+    font-size: 12px;
+    width: 90px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    margin: 110px 0px 0px 90px;
+}
+.curved-edgeL{
+    border: none;
+    border-radius: 15px 0px 0px 15px;
+}
+.curved-edgeR{
+    border: none;
+    border-radius: 0px 15px 15px 0px;
+}
+.stack-top a img{
+    stroke: white;
+}
+
+/*section2*/
+.section-2{
+    display: flex;
+}
+
+/*story-div*/
+.story-title-line h4{
+    margin: 40px 0px 0px 0px;
+    font-size: 30px;
+}
+.story-title-line p{
+    margin: 5px 0px 15px 0px;
+    font-size: 20px;
+}
+.story-frame1{
+    padding: 10px 0px;
+    display: flex;
+    border-top: 1px solid rgb(218,220,224);
+    width: fit-content;
+}
+.story-frame1 .div-seg1 .messi-dailypost{
+    width: 310px;
+    display: block;
+    height: 160px;
+    border: none;
+    border-radius: 10px;
+}
+.story-logos{
+    display: block;
+    width: 50px;
+    height: 18px;
+    margin: 10px 0px 5px 0px;
+}
+.espana-logo{
+    display: block;
+    width: 50px;
+    height: 18px;
+    margin: 0px 0px 5px 0px;
+}
+.goal-logo{
+    display: block;
+    width: 160px;
+    height: 18px;
+    margin: 10px 0px 5px 0px;
+}
+.div-seg1{
+    padding-right: 5px;
+    border-right: 1px solid rgb(218,220,224);
+}
+.div-seg1 a{
+    max-width: 320px;
+    line-height: 23px;
+    display: block;
+    text-decoration: none;
+    font-size: 17px;
+}
+.div-seg12{
+    width: 300px;
+    margin-top: 4px;
+    border-top: 1px solid rgb(218,220,224);
+    display: flex;
+    align-items: center;
+}
+.div-seg121{
+    width: 300px;
+    display: flex;
+    align-items: center;
+}
+.div-seg121 div a{
+    line-height: 23px;
+    display: block;
+    text-decoration: none;
+    max-width: 200px;
+    font-size: 17px;
+}
+.div-seg12 div a{
+    line-height: 23px;
+    display: block;
+    text-decoration: none;
+    max-width: 200px;
+    font-size: 17px;
+}
+.small-size{
+    width: 90px;
+    height: 90px;
+    margin-left: 15px;
+    border-radius: 10px;
+}
+.div-seg2{
+    padding-left: 15px;
+}
+
+/*section-2-wrapper-2*/
+.personal-bio{
+    border-bottom: 1px solid rgb(224,226,229);
+    padding-bottom: 10px;
+}
+.wrapper2{
+    margin-top: 40px;
+    max-width: 400px;
+    margin-left: 50px;
+    border-left: 1px solid rgb(224,226,229);
+    padding-left: 35px;
+}
+.wrapper2 .personal-bio h4{
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+.wrapper2 .personal-bio p{
+    font-size: 16px;
+}
+.wrapper2 .personal-bio p a{
+    text-decoration: none;
+}
+.feedback-div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.feedback-div .feedbacktext{
+    font-size: 13px;
+}
+.shield-link{
+    display: flex;
+    /* align-items: center; */
+    text-decoration: none;
+    color: black;
+    border: 1px solid rgb(224,226,229);
+    padding: 5px 12px 5px 8px;
+    border-radius: 50px;
+}
+.shield-link img{
+    width: 25px;
+    height: 20px;
+}
+
+/*profiles*/
+.profiles{
+    border-bottom: 1px solid rgb(224,226,229);
+    padding-bottom: 20px;
+}
+.profile-text{
+    display: block;
+}
+.profiles h4{
+    margin: 10px 0px 15px 0px;
+}
+.profiles div{
+    display: flex;
+    justify-content: space-between;
+    max-width: 250px;
+}
+.profiles div a{
+    color: black;
+    text-decoration: none;
+}
+.profiles-logo{
+    width: 30px;
+    height: 30px;
+    margin-left: 13px;
+}
+
+/*statistics*/
+.statistics .stats-heading{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.stats-heading img{
+    border: 1px solid rgb(224,226,229);
+    border-radius: 50%;
+    padding: 10px;
+}
+.stats-heading h4{
+    margin-bottom: 10px;
+}
+table{
+    text-align: left;
+}
+th, td, tbody{
+    border-bottom: 1px solid rgb(224,226,229);
+    border-collapse: collapse;
+    padding: 5px 0px;
+}
+td{
+    
+}
+.compress{
+    max-width: 40px;
+    padding-right: 20px;
+}
+
+
+/*section-3*/
+.top-div{
+    background-color: rgb(242,242,242);
+    border-bottom: 2px solid rgb(218,220,224);
+}
+.bottom-div{
+    background-color: rgb(242,242,242);
+}
+.top-div div{
+    display: flex;
+    align-items: center;
+}
+.top-div div .nigeria-text{
+    border-right: 2px solid rgb(218,220,224);
+    margin-right: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 0px;
+}
+.top-div div p{
+    margin-bottom: 11px;
+}
+.top-div div span{
+    font-size: 70px;
+    margin-top: -33px;
+}
+.bottom-div ul{
+    list-style: none;
+    display: flex;
+    padding: 0px;
+    justify-content: space-between;
+    width: 270px;
+    font-size: 17px;
+    padding: 10px 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
