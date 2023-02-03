@@ -343,7 +343,43 @@ body{
     padding-left: 15px;
 }
 
-
+.people-also-ask{
+    margin-top: 80px;
+}
+.people-also-ask h3{
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+.feedback-space{
+    display: flex;
+    align-items: center;
+}
+.feedback-space span{
+    font-size: 12px;
+    font-style: italic;
+    margin-left: 5px;
+}
+.horizontal-line{
+    background-color: rgb(218,220,224);
+    height: 1px;
+    width: 100%;
+}
+.question{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 1px solid rgb(218,220,224);
+    padding-top: 10px;
+    margin-bottom: 10px;
+}
+.question p{
+    font-size: 19px;
+    margin: 0px;
+}
+.question img{
+    width: 15px;
+    height: 15px;
+}
 .next-page{
     width: 340px;
     height: 90px;
