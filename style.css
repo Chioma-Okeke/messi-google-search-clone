@@ -1,4 +1,8 @@
 /*general settings*/
+.flex{
+    display: flex;
+    align-items: center;
+}
 .font-22{
     font-size: 22px;
 }
@@ -28,7 +32,7 @@
 }
 .logo{
     width: 95px;
-    height: 33px;
+    height: 30px;
 }
 /*icons*/
 .x-icon{
@@ -82,7 +86,8 @@
 .search-box{
     display: flex;
     justify-content: space-between;
-    border: 1px solid black;
+    border: 1px solid rgb(246,246,247);
+    box-shadow: 1px 3px 10px 1px rgb(237 237 238);
     padding: 10px;
     border-radius: 50px;
     width: 645px;
@@ -128,7 +133,7 @@ body{
 
 /*section-1*/
 #section-1{
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid rgb(218,220,224);
 }
 .section{
     display: flex;
@@ -400,7 +405,7 @@ body{
     margin-left: 50px;
     border-left: 1px solid rgb(224,226,229);
     padding-left: 35px;
-    max-height: fit-content;
+    height: fit-content;
 }
 .wrapper2 .personal-bio h4{
     margin-top: 0px;
@@ -523,6 +528,23 @@ th, td, tbody{
     width: 15px;
     margin-left: 10px;
     height: 15px;
+}
+
+/*Related searches*/
+.rs-text h4{
+    font-size: 25px;
+    margin-right: 20px;
+    margin-bottom: 10px;
+}
+.rs-text img{
+    margin-top: 25px;
+}
+.question .related-images{
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+    border: none;
+    border-radius: 5px;
 }
 
 
